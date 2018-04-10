@@ -1,0 +1,104 @@
+html {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body,
+ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0px;
+	padding: 6px 32px;
+	text-transform: uppercase;
+	background-color: #ffe0b2;
+	color: #444;
+}
+
+#images {
+	display: block;
+}
+
+img {
+	width: 960px;
+}
+
+.hidden {
+	display: none;
+}
+
+.active {
+	display: block;
+	margin: auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.btn {
+	position: relative;
+}
+
+#previous {
+	float: left;
+	left: 290px;
+}
+
+#next {
+	float: right;
+	right: 290px;
+}
+
+button {
+	position: absolute;
+	bottom: 24px;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #ddd;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	padding: 298px 32px;
+	outline: none;
+}
+
+button:hover {
+	color: #fff;
+}
+
+#next:hover {
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.2));
+}
+
+#previous:hover {
+	background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2));
+}
+
+ul {
+	list-style: none;
+}
+
+#index li {
+	display: inline-block;
+	width: 30px;
+	height: 3px;
+	margin: 0px 4px;
+}
+
+.current {
+	background-color: #ccc;
+}
+
+.invisible {
+	background-color: #222;
+}

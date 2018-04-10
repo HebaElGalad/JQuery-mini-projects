@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+	<header>
+		<h1>Image Gallery</h1>
+	</header>
+	
+	<main>
+		<ul id="images">
+			<li class="hidden"><img src="images/hummingbird.jpg" alt="hummingbird flying"></li>
+			<li class="hidden"><img src="images/squirrel.jpeg" alt="squirrel"></li>
+			<li class="active"><img src="images/sea.jpeg" alt="sea"></li>
+			<li class="hidden"><img src="images/morning.jpeg" alt="grass"></li>
+			<li class="hidden"><img src="images/flowers.jpeg" alt="flowers"></li>
+		</ul>
+		<ul id="index">
+			<li class="invisible"></li>
+			<li class="invisible"></li>
+			<li class="current"></li>
+			<li class="invisible"></li>
+			<li class="invisible"></li>
+		</ul>
+		<div class="btn clearfix">
+			<button id="previous">&#10094;</button>
+			<button id="next">&#10095;</button>
+		</div>
+	</main>
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script src="gallery.js"></script>
+</body>
+</html>
